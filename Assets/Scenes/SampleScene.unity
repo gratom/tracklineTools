@@ -212,15 +212,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98133d2f4f4ff984c87194d485989c44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  smoothMultipolier: 0.001
   image: {fileID: 420602744}
-  noisesMultipliers:
-  - 1
-  - 1
-  - 1
-  - 1
+  noises:
+  - multiplier: 16
+    noiseSize: 2
+  - multiplier: 8
+    noiseSize: 4
+  - multiplier: 4
+    noiseSize: 8
+  - multiplier: 2
+    noiseSize: 16
+  - multiplier: 1
+    noiseSize: 32
   WSize: 8
   HSize: 8
-  NoisesCount: 4
   gradient:
     serializedVersion: 2
     key0: {r: 0.0068820016, g: 0, b: 0.4528302, a: 1}
@@ -231,14 +237,14 @@ MonoBehaviour:
     key5: {r: 0.509434, g: 0.509434, b: 0.509434, a: 0}
     key6: {r: 0.58913505, g: 0.58913505, b: 0.58913505, a: 0}
     key7: {r: 1, g: 1, b: 1, a: 0}
-    ctime0: 2313
-    ctime1: 4626
-    ctime2: 9059
-    ctime3: 14649
-    ctime4: 26021
-    ctime5: 35466
-    ctime6: 51079
-    ctime7: 58982
+    ctime0: 14264
+    ctime1: 16769
+    ctime2: 19853
+    ctime3: 31997
+    ctime4: 45104
+    ctime5: 52235
+    ctime6: 57632
+    ctime7: 61487
     atime0: 0
     atime1: 65535
     atime2: 0
